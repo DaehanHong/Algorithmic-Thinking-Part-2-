@@ -1,0 +1,44 @@
+3
+
+n*(n-1)/2
+
+O(n^2)
+
+Line 1: B[i]¡ÂC[j]
+Line 2: p-i
+
+T(n)=2T(n/2)+O(n)
+
+O(n^2)
+
+O(n^3)
+
+3
+
+Returns ii if there exists an ii such that A[i]=iA[i]=i, and -1?1 otherwise.
+
+Best case: O(1)
+Worst case: O(logn)
+
+S(n,k)=k S(n-1,k)+S(n-1,k-1)
+
+
+2^n-1-1
+
+O(n^2+h(n) n)
+
+O(q k n)
+
+O(n)
+
+O(n^2)
+
+T(n)=2 T(n/2)+f(n)
+T(2)=d
+
+
+O(nlogn)
+
+O(nlog^2n)
+
+O(nlogn)

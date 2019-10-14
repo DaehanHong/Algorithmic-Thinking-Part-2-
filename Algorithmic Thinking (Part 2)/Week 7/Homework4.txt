@@ -1,0 +1,45 @@
+X กว =AC and Y'=CA.
+X กว=AC?? and Y'=??CA.
+
+xxx
+
+The number of possible alignments of a pair of sequences becomes infinite
+
+1x 4xxxx 8
+
+Xกว=AC and Y'=GG.
+
+B(m,n)=B(m?1,n)+B(m?1,n?1)+B(m,n?1).
+
+S[i?1,j?1], S[i-1, j] and S[i, j-1].
+
+Line 1: S[i-1,0] + M_{X_{i-1},-}	 
+Line 2: S[0,j-1] + M_{-,Y_{j-1}}	 
+Line 3: max?????S[i?1,j?1]+MXi?1,Yj?1S[i?1,j]+MXi?1,?S[i,j?1]+M?,Yj?1
+
+Line 1: X_{i-1}+X' 
+Line 2: Y_{j-1}+Y' 
+Line 3: X_{i-1}+X'
+Line 4: "?"+Yกว
+Line 5: "?"+Xกว
+Line 6: Y_{j-1}+Y'
+
+O(m n)
+
+n*(n+1)/2 + 1
+
+2 2 2 xxx
+???
+
+2xxx
+0??
+
+2 4 15 20??
+
+Xกว =AA and Yกว=AA
+
+O(m n)
+
+True
+
+
